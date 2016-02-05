@@ -73,3 +73,80 @@ p.lead {
   font-weight: 300;
   line-height: 24px;
 }
+
+/* ------------------------
+   Layout
+   ------------------------ */
+
+.container {
+  width: 940px;
+  padding: 0 10px 0 10px;
+  /*background: pink;*/
+  margin: 0 auto;
+}
+
+header {
+  background: #000000;
+}
+
+#logo {
+  display: block;
+  margin-top: 5px;
+  float: left;
+}
+
+#hero {
+  background: #00c0ff;
+}
+
+/* ------------------------
+   Navigation
+   ------------------------ */
+
+nav ul {
+  margin: 0;
+  padding: 0;
+}
+
+nav ul li {
+  list-style: none;
+  float: right;
+  font-size: 20px;
+}
+
+header nav ul li a {
+  display: block;
+  color: #fff;
+  text-decoration: none;
+  font-weight: bold;
+  padding: 31px;
+  border-left: solid 1px #333;
+  border-right: solid 1px #333;
+}
+
+header nav ul li a:hover {
+  background: #222;
+}
+
+header nav ul li a:active {
+  -webkit-box-shadow: 0 0 5px rgba(0, 0, 0, 0.8) inset;
+  -moz-box-shadow: 0 0 5px rgba(0, 0, 0, 0.8) inset;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.8) inset;
+}
+/* ------------------------
+   Global Styles
+   ------------------------ */
+
+.clearfix:before,
+.clearfix:after {
+  content: "";
+  display: table;
+}
+
+.clearfix:after {
+  clear: both;
+}
+
+.clearfix {
+  zoom: 1; /* Gracias IE6/7 por amargarnos la vida */
+}
