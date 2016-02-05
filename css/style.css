@@ -129,6 +129,45 @@ header {
 }
 
 /* ------------------------
+   Sidebar
+   ------------------------ */
+
+aside {
+  background: #444;
+  width: 160px;
+  color: #fff;
+  float: right;
+  margin-left: 20px;
+  padding: 30px;
+  font-size: 12px;
+  line-height: 18px;
+}
+
+aside .widget {
+  margin: 10px 0;
+}
+
+aside .widget:nth-child(2) {
+  margin-top: 40px;
+}
+
+aside .widget h4 {
+  font-weight: 200;
+  font-size: 20px;
+  margin: 0 0 10px;
+}
+
+aside .socials a {
+  position: relative;
+  margin-right: 5px;
+}
+
+aside .socials a:hover {
+  position: relative;
+  top: -1px;
+}
+
+/* ------------------------
    Navigation
    ------------------------ */
 
