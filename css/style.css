@@ -280,6 +280,10 @@ header nav ul li a:active {
    Global Styles
    ------------------------ */
 
+.fa {
+  font-size: 30px;
+  color: #fff;
+}
 .column {
   float: left;
   margin-right: 20px;
