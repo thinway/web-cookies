@@ -1,3 +1,75 @@
+/*
+
+  style.css
+
+  Colours
+  =======
+
+    Black: #000000
+    Darker Grey:   #222222
+    Dark Grey:     #333333
+    Gray:          #444444
+    Light Gray:    #eeeeee
+    Light Blue:    #00c0ff
+    Dark Blue:     #0090bf
+
+*/
+
+/* ------------------------
+   General Styles
+   ------------------------ */
+
 body {
-  background: orange;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  line-height: 20px;
+  color: #444444;
+}
+
+/* ------------------------
+  Typography
+  ------------------------ */
+
+h1, h2, h3 {
+  font-weight: 300;
+  line-height: 45px;
+  margin: 0;
+}
+
+h4, h5, h6 {
+  font-weight: bold;
+  margin: 5px 0 5px 0;
+}
+
+h1 {
+  font-size: 48px;
+}
+
+h2 {
+  font-size: 24px;
+}
+
+h3 {
+  font-size: 30px;
+}
+
+h4 {
+  font-size: 18px;
+  margin: 10px 0;
+}
+
+h5 {
+  font-size: 13px;
+  margin: 0;
+  text-transform: uppercase;
+}
+
+p {
+  margin: 0 0 10px 0;
+}
+
+p.lead {
+  font-size: 18px;
+  font-weight: 300;
+  line-height: 24px;
 }
