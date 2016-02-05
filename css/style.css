@@ -168,6 +168,26 @@ aside .socials a:hover {
 }
 
 /* ------------------------
+   Secondary Call-to-Action
+   ------------------------ */
+
+#secondary-cta {
+  background: #eee;
+  padding: 30px 0;
+}
+
+#secondary-cta div h4 {
+  float:left;
+  font-size: 24px;
+  font-weight: 200;
+}
+
+#secondary-cta form {
+  float: right;
+  margin: 0;
+}
+
+/* ------------------------
    Navigation
    ------------------------ */
 
@@ -280,10 +300,19 @@ header nav ul li a:active {
    Global Styles
    ------------------------ */
 
+input[type="text"], input[type="email"] {
+  position: relative;
+  padding: 11px 10px;
+  border: 1px solid #ccc;
+  width: 220px;
+  margin: 0 -5px 0 0;
+}
+
 .fa {
   font-size: 30px;
   color: #fff;
 }
+
 .column {
   float: left;
   margin-right: 20px;
