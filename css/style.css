@@ -188,6 +188,39 @@ aside .socials a:hover {
 }
 
 /* ------------------------
+   Footer
+   ------------------------ */
+
+footer {
+  background: #444;
+  color: white;
+  padding: 35px 0;
+}
+
+footer #copyright {
+  float:left;
+  width: 280px;
+}
+
+footer nav {
+  width: 500px;
+  float: right;
+}
+
+footer a {
+  color: #fff;
+  text-decoration: none;
+}
+
+footer nav a {
+  margin: 0 0 0 15px;
+}
+
+footer a:hover {
+  color: #00c0ff;
+}
+
+/* ------------------------
    Navigation
    ------------------------ */
 
@@ -295,6 +328,10 @@ header nav ul li a:active {
 .btn-secondary:active {
   position: relative;
   top: 1px;
+}
+
+.btn-small {
+  font-weight: bold;
 }
 /* ------------------------
    Global Styles
