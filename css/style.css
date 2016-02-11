@@ -333,12 +333,13 @@ header nav ul li a:active {
 .btn-small {
   font-weight: bold;
 }
+
 /* ------------------------
    Global Styles
    ------------------------ */
 
 input[type="text"], input[type="email"] {
-  position: relative;
+  /*position: relative;*/
   padding: 11px 10px;
   border: 1px solid #ccc;
   width: 220px;
