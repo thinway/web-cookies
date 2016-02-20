@@ -19,6 +19,10 @@
    General Styles
    ------------------------ */
 
+html, body {
+   /*height: 100%;*/
+}
+
 body {
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 14px;
@@ -218,6 +222,25 @@ footer nav a {
 
 footer a:hover {
   color: #00c0ff;
+}
+
+/* ------------------------
+   Sticky Footer
+   ------------------------ */
+
+#page-wrap {
+  min-height: 100%;
+  /* igual que la altura del height */
+  margin-bottom: -200px;
+}
+
+#page-wrap:after {
+  content:"";
+  display:block;
+}
+
+#foot-wrap, #page-wrap:after {
+  height: 230px;
 }
 
 /* ------------------------
